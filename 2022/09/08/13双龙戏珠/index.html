@@ -6,17 +6,14 @@
   <meta name="keywords" content=" 《不涩涩会死》 ">
   <meta name="description" content="【all空】3）迪卢克x空x凯亚《双龙戏珠》 | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="————阿贝少x空x阿贝多——【避雷】强制play、控制欲强、人体改造、双龙、骚穴灌水、玩坏——【避雷】为肉而肉sorry！！——【避雷】阿贝少剧情比阿贝多多很多，大概7：3——　　　　Section 01　　　　　　空传送去了风起地，相较其他人，温迪是最没有控制欲的一位，相较而言放心的多。　　只是传送过去后，并未如愿见到他，空便去蒙德城寻人，才穿过城门走上阶梯，便被凯萨琳喊住了。　　“好久不见旅">
-<meta property="og:type" content="article">
-<meta property="og:title" content="【all空】6）阿贝x空">
-<meta property="og:url" content="http://example.com/2022/09/08/16%E9%98%BF%E8%B4%9Dx%E7%A9%BA/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://example.com/about/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="————阿贝少x空x阿贝多——【避雷】强制play、控制欲强、人体改造、双龙、骚穴灌水、玩坏——【避雷】为肉而肉sorry！！——【避雷】阿贝少剧情比阿贝多多很多，大概7：3——　　　　Section 01　　　　　　空传送去了风起地，相较其他人，温迪是最没有控制欲的一位，相较而言放心的多。　　只是传送过去后，并未如愿见到他，空便去蒙德城寻人，才穿过城门走上阶梯，便被凯萨琳喊住了。　　“好久不见旅">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-09-08T11:01:27.000Z">
-<meta property="article:modified_time" content="2022-09-08T13:51:59.175Z">
+<meta property="article:published_time" content="2022-09-08T13:41:31.000Z">
+<meta property="article:modified_time" content="2022-09-08T13:41:31.570Z">
 <meta property="article:author" content="枕草子叙">
-<meta property="article:tag" content="《不涩涩会死》">
 <meta name="twitter:card" content="summary">
 
 
@@ -162,7 +159,7 @@
     <div class="friends-content">
         <ul>
             
-            <li><a target="_blank" href="http://yelog.org/">叶落阁</a></li>
+            <li><a target="_blank" href="/false">on</a></li>
             
         </ul>
     </div>
@@ -203,6 +200,10 @@
 
 </div>
 
+    
+    <div id="local-search-result">
+
+    </div>
     
     <nav id="title-list-nav">
         
@@ -343,6 +344,17 @@
         </span>
         
         
+        <span class="top-comment" title="跳转至评论区">
+            <a href="#comments">
+                评论:<span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </a>
+        </span>
+        
     </div>
     
     <div class="toc-ref">
@@ -385,6 +397,27 @@
 
 
 
+
+
+    <div id="comments"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+<script type="text/javascript">
+    $.getScript('/js/gitalk.js', function () {
+        var gitalk = new Gitalk({
+            clientID: '',
+            clientSecret: '',
+            repo: 'yelog.github.io',
+            owner: 'yelog',
+            admin: ['yelog'],
+            id: decodeURI(location.pathname),
+            distractionFreeMode: 'true',
+            language: 'zh-CN',
+            perPage: parseInt('10',10)
+        })
+        gitalk.render('comments')
+    })
+</script>
 
 
 
@@ -436,6 +469,25 @@
         $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
 
         
+        
+        /* 渲染*/
+        function HTMLDecode(text) {
+            var temp = document.createElement("div");
+            temp.innerHTML = text;
+            var output = temp.innerText || temp.textContent;
+            temp = null;
+            return output;
+        }
+        if (window.mermaid){
+            window.mermaid = null
+        }
+        $.getScript("//cdn.jsdelivr.net/npm/mermaid@8.4.2/dist/mermaid.min.js", function () {
+            var mermaidOptions = JSON.parse(HTMLDecode("{&#34;theme&#34;:&#34;default&#34;,&#34;startOnLoad&#34;:true,&#34;flowchart&#34;:{&#34;useMaxWidth&#34;:false,&#34;htmlLabels&#34;:true}}"))
+            if (window.mermaid) {
+                mermaid.initialize(mermaidOptions)
+                mermaid.contentLoaded()
+            }
+        })
         
     }
 

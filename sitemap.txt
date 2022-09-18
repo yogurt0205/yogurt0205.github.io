@@ -1,4 +1,6 @@
-http://example.com/2022/09/09/%E7%BB%AB%E6%89%98%EF%BC%88%E7%BA%A6%E7%A8%BF%EF%BC%89/
+http://example.com/2022/09/18/%E5%AE%8C%E7%BB%9301/
+http://example.com/2022/09/09/%E3%80%90%E7%BA%A6%E7%A8%BF%E3%80%91%E8%BE%BE%E7%BB%AB/
+http://example.com/2022/09/09/%E3%80%90%E7%BA%A6%E7%A8%BF%E3%80%91%E7%BB%AB%E6%89%98/
 http://example.com/2022/09/08/16%E9%98%BF%E8%B4%9Dx%E7%A9%BA/
 http://example.com/2022/09/08/15%E7%BB%AB%E4%BA%BAx%E7%A9%BA/
 http://example.com/2022/09/08/14%E6%B8%A9%E8%BF%AAx%E7%A9%BA/
@@ -16,6 +18,7 @@ http://example.com/tags/%E9%92%9F%E7%A9%BA/
 http://example.com/tags/%E8%BE%BE%E7%A9%BA/
 http://example.com/tags/3p/
 http://example.com/tags/%E7%BB%AB%E7%A9%BA/
+http://example.com/tags/%E8%BF%AA%E7%A9%BA/
 http://example.com/categories/%E7%9F%AD%E7%AF%87/
 http://example.com/categories/all%E7%A9%BA%E5%90%91/
 http://example.com/categories/all%E7%A9%BA%E5%90%91/%E4%B8%8D%E6%B6%A9%E6%B6%A9%E4%BC%9A%E6%AD%BB/
